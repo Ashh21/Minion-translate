@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600&display=swap');
+
+body{
+    font-family: 'Lora', serif;
+    
+}
+
+.navigation {
+    background-color: tomato;
+    color: aliceblue;
+    padding: 1.5rem; 
+    border-radius: 1rem;
+    /* text-align: center; */
+}
+
+.nav-brand{
+    font-size: 24px;
+     
+}
+
+
+    
+ textarea{
+    width: 80%;
+    height: 16vh;
+    display: block;
+    margin: 4rem auto;
+    padding: 1rem;
+    border: 1.5px solid black ;
+  
+}
+
+ button{
+    margin: auto ;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.container {
+    padding: auto;
+    padding-left: 8rem;
+    margin-top: 0px;
+}
