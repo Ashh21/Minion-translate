@@ -8,23 +8,30 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navigation ">
-        <div class="nav-brand">Minio translate</div>
-        
+
+    <nav class="navigation">
+        <div class="nav-brand">Minio translate</div>     
     </nav>
     
-    <div>
-        <textarea id="txt-input" 
-    placeholder="You can put your sentence here in english" ></textarea>
+    <div class="container "  >
+
+        <div>
+           <textarea id="txt-input" 
+           placeholder="You can put your sentence here in english" ></textarea>
+        </div>
+        
+       <button class="Primary " id="btn-translate">Translate</button>
+    
+        <div class="sty" > Output will come here</div>
+        <div id="output"></div>
+
     </div>
 
-    <div class="container" >
-        <button class="Primary " id="btn-translate">Translate</button>
-    </div>
-    
-    <div style="font-size: larger;"> Output will come here</div>
-    
-    <div id="output"></div>
+    <footer class="footer" >
+        <div class="footer-header" >about</div>
+        <p> Use this minion translator to covert your text from English to Minionese language. </p>
+    </footer> 
+
 </body>
 
 <script src="app.js" ></script>
